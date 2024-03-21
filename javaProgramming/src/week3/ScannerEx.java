@@ -19,6 +19,7 @@ public class ScannerEx {
 		System.out.println("몸무게는"+weight+"kg,");
 		boolean isSingle= scanner.nextBoolean();
 		System.out.println("독신여부는"+isSingle+"입니다.");
+		System.out.println("감사합니다...");
 		scanner.close();
 	}
  
