@@ -21,5 +21,5 @@ public class ScannerEx {
 		System.out.println("독신여부는"+isSingle+"입니다.");
 		scanner.close();
 	}
-
+ 
 }
