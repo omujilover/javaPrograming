@@ -4,12 +4,12 @@ public class week4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		System.out.println(69/10);
-//		System.out.println(69%10);
+		System.out.println(69/10);
+		System.out.println(69%10);
 		
 		int n = 1;
 		int r = n % 2;
-//		System.out.println("r:"+r);
+		System.out.println("r:"+r);
 		
 		int i = 1;
 		int j = 5;
