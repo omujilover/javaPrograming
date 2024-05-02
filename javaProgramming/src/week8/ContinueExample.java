@@ -21,7 +21,7 @@ public class ContinueExample {
 		System.out.println("양수의 합은"+ sum);
 		
 		scanner.close();
-	}
+	} 
 
 }
 	
