@@ -19,5 +19,5 @@ public class BreakExample {
 		
 		scanner.close();
 	}
-sss
+
 }
