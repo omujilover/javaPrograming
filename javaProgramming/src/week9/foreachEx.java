@@ -1,25 +1,28 @@
 package week9;
 
 public class foreachEx {
-	enum Week {월,화,수,목,금,토,일}
+	enum Week {
+		월, 화, 수, 목, 금, 토, 일
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] n = {1,2,3,4,5};
-		String names[] = {"사과","배","바나나","체리","딸기","포도"};
-		
+		int[] n = { 1, 2, 3, 4, 5 };
+		String names[] = { "사과", "배", "바나나", "체리", "딸기", "포도" };
+
 		int sum = 0;
 		for (int k : n) {
-			System.out.print(k  + " ");
+			System.out.print(k + " ");
 			sum += k;
 		}
-		System.out.print("합은 "+ sum);
+		System.out.print("합은 " + sum);
 		System.out.println();
-		
+
 		for (String s : names)
 			System.out.print(s + " ");
 		System.out.println();
-		
-		for (Week day:Week.values())
+
+		for (Week day : Week.values())
 			System.out.print(day + "요일 ");
 		System.out.println();
 	}

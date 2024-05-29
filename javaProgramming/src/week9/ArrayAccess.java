@@ -16,7 +16,7 @@ public class ArrayAccess {
 			intArray[i] = scanner.nextInt();
 			if (intArray[i] > max)
 				max = intArray[i];
-		}
+		 }
 		System.out.println("가장 큰 수는 " + max + "입니다.");
 
 		scanner.close();
