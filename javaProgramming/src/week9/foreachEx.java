@@ -12,7 +12,7 @@ public class foreachEx {
 
 		int sum = 0;
 		for (int k : n) {
-			System.out.print(k + " ");
+			System.out.print(k  + " ");
 			sum += k;
 		}
 		System.out.print("합은 " + sum);
