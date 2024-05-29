@@ -18,7 +18,7 @@ public class ArrayLength {
 			sum += intArray[i];
 		}
 
-		System.out.println("평균은" + (double) sum / intArray.length);
+		System.out.println("평균은 " + (double) sum / intArray.length);
 		scanner.close();
 	}
 

@@ -15,7 +15,7 @@ public class BreakExample {
 			if(text.equals("exit"))
 				break;
 		}
-		System.out.println("종료합니다...");
+		System.out.println("종료합니다... ");
 		
 		scanner.close();
 	}
